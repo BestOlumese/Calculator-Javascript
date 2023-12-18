@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+</head>
+<body id="body" class="theme-one">
+
+  <div class="calc">
+    <div class="calc-header">
+      <h3>calc</h3>
+      <div class="toggle">
+        <p>theme</p>
+        <div class="toggle-no">
+          <p class="toggle-number">123</p>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider start round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="screen">
+      <h1 id="content">0</h1>
+    </div>
+    <div class="calc-body">
+      <div class="row">
+        <button class="btn btn-classic">7</button>
+        <button class="btn btn-classic">8</button>
+        <button class="btn btn-classic">9</button>
+        <button class="btn btn-special del">DEL</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-classic">4</button>
+        <button class="btn btn-classic">5</button>
+        <button class="btn btn-classic">6</button>
+        <button class="btn btn-classic">+</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-classic">1</button>
+        <button class="btn btn-classic">2</button>
+        <button class="btn btn-classic">3</button>
+        <button class="btn btn-classic">-</button>
+      </div>
+      <div class="row">
+        <button class="btn btn-classic">.</button>
+        <button class="btn btn-classic">0</button>
+        <button class="btn btn-classic">/</button>
+        <button class="btn btn-classic">*</button>
+      </div>
+      <div class="special-row">
+        <button class="btn btn-special reset">RESET</button>
+        <button class="btn btn-equal">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
